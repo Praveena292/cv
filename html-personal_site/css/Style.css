@@ -1,0 +1,45 @@
+/*################ tag selectors##############*/
+body {
+    background-color:hsl(180, 57%, 93%);
+}
+hr {
+    height: 0px;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: bisque;
+    border-width: 5px;
+    
+width: 10%;
+}
+img{
+    border-radius: 100%;
+
+}
+
+h1:hover {
+    color: #0e7c7c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+    color: #66bfbf;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*################ Class selectors- we can have different tag have same class name-##############*/
+.profile{
+    height: 200px;
+}
+.emoji:hover{
+    border-radius: 0%;
+    width: 100px;
+}
+/*################ id selectors -id shd be different for different tag-no two tag shd have same name-##############*/
+#heading{
+    color:gray;
+}
+#edu{
+    color: blue;
+}
+#first{
+    color:red;
+}
